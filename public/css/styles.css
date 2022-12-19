@@ -1,10 +1,10 @@
 body {
-    color: #333333;
+    color: #000000;
     font-family: arial;
     max-width: 650px;
     margin: 0 auto;
     padding: 0 16px;
-    background-color: #009cb1;
+    background-color: #f1f1b9e3;
     display: flex;
     flex-direction: column;
     min-height: 100vh
@@ -26,7 +26,7 @@ header {
 }
 
 h1 {
-    color: #000;
+    color: rgb(219, 51, 51);
     font-size: 64px;
     margin-bottom: 16px;
 }

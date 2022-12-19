@@ -48,7 +48,7 @@ app.get('/help', (req, res) => {
 app.get('/weather', (req, res) => {
     if (!req.query.cityName) { 
         return res.send({
-            error: 'PLease provide an address!'
+            error: 'Please provide an address!'
         })
     }
 
